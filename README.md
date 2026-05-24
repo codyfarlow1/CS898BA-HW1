@@ -45,7 +45,7 @@ Part 2: You know you should at least do basic analysis to get started, so you pe
   5.  Convert both the first image and the equalized image to greyscale, binary, and different color spaces (HSV, CIELAB, and HLS).
   6.  Save those images to new files.
   7.  You should now have 12 images.
-  8.  Perform a single random affine transformation on each image (you should perform 12 total transformations - 1 for each image). Affine transformations can be translation, rotation, scaling, or shear as long as each is unique in either transformation type or transformation value (rotate 90 degrees vs rotate 186 degrees). No two images should be transformed in the exact same way. Save each of those images to new files.
+  8.  Perform random affine transformations on each image (you should perform 12 total transformations - 1 for each image). Affine transformations can be translation, rotation, scaling, or shear as long as each is unique in either transformation type or transformation value (rotate 90 degrees vs rotate 186 degrees). No two images should be transformed in the exact same way. Save each of those images to new files.
   9.  You should now have 24 images.
   10.  Apply a Gaussian blur to each image using the levels of sigma: 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5. Discuss how the level of sigma changes the image. Save each of those images to new files.
   12.  You should now have 192 images.
@@ -77,11 +77,9 @@ Part 3: You decide that detecting the edges of the unknown figure would be usefu
      
   7.  You should now have 240 images.
   
-  8.  Create 48, 5-image plots of the input image (from the start of part 3) next to the edge-detected images and output 6 random plots to add to the readme. Your plots should look similar to this:
+  8.  Create 48, 5-image plots of the input image (from the start of part 3) next to the edge-detected images and output 6 random plots to add to the readme. Include information on what processing techniques were used on the images. Your plots should look similar to this:
 
-<img width="1192" height="1208" alt="image" src="https://github.com/user-attachments/assets/5648aeb3-16b3-4592-aaf7-26d708dfa4ef" />
-
-
+<img width="1425" height="1483" alt="image" src="https://github.com/user-attachments/assets/8059bb6e-c001-4bc0-94d0-3f9ae71e8844" />
 
 ---
 
